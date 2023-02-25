@@ -9,7 +9,7 @@
       <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
          <form action="{{ route('users.store') }}" method="POST">
             @csrf
-            <div class="grid  gap-4">
+            <div class="grid grid-cols-1 gap-4">
                <div class="">
                   <div class="flex flex-wrap mx-3 mb-6">
                      <div class="w-3/4 px-3">
